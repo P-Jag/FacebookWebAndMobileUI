@@ -1,5 +1,4 @@
-import 'package:meta/meta.dart';
-import 'models.dart';
+import 'package:facebook_responsive_ui/models/models.dart';
 
 class Post {
   final User user;

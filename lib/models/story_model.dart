@@ -1,5 +1,5 @@
 import 'package:meta/meta.dart';
-import 'models.dart';
+import 'package:facebook_responsive_ui/models/models.dart';
 
 class Story {
   final User user;
@@ -9,6 +9,6 @@ class Story {
   Story({
     @required this.user,
     @required this.imageUrl,
-    this.isViewed,
+    this.isViewed = false,
   });
 }
